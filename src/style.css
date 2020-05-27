@@ -1,0 +1,76 @@
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+
+  }
+
+
+.title{
+    text-align: center;
+    font-size: 34px;
+    font-style: bold;
+    color: azure;
+}
+
+.input{
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+  .addButton {
+      border-radius: 20px;
+      background-color: rgb(65, 180, 27); 
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      
+    }
+
+    .addButton:hover {
+        background-color: rgb(5, 95, 8);
+        color: white;
+      }
+
+      .listView{
+        list-style: decimal;
+        text-align: center;
+        list-style-position: inside;
+      }
+
+      .listItems{
+        margin: 15px;
+      }
+
+      .deleteButton{
+        border-radius: 10px;
+        margin: 15px;
+        color: whitesmoke;
+        background-color: red;
+        cursor: pointer;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        width: 45px;
+        height: 25px;
+      }
+
+      .deleteButton:hover{
+          background-color: darkred;
+          color: whitesmoke;
+      }
+
